@@ -1,0 +1,22 @@
+{
+    "name": "sainsburys/scrape",
+    "description": "Sainsburys hiring test project, scrape and return product information",
+    "authors": [
+        {
+            "name": "Tim Parker",
+            "email": "tim.parker1987@googlemail.com"
+        }
+    ],
+    "require": {
+    	"paquettg/php-html-parser": "1.7.0",
+    	"guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": { 
+        	"Sainsburys\\": "src/" 
+        }
+    }
+}

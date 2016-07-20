@@ -10,6 +10,7 @@ The `Scraper` first loads the page looking for other Product URLs. For each of t
  - Clone the repository
  - Run `composer install` in root directory
  - To run, use command `php src/main.php <url>`
+   - `php src/main.php http://hiring-tests.s3-website-eu-west-1.amazonaws.com/2015_Developer_Scrape/5_products.html`
  - For tests, run `vendor/bin/phpunit`
 
 ## Structure
